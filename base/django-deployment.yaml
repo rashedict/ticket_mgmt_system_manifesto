@@ -13,12 +13,8 @@ spec:
         app: django
     spec:
       containers:
-      - name: django
-<<<<<<< HEAD
-        image: rashed271202/ticket_mgmt_system:v4
-=======
-        image: rashed271202/ticket_mgmt_system:v4
->>>>>>> origin/main
+      - name: ticket_mgmt_system
+        image: rashed271202/ticket_mgmt_system:v1
         ports:
         - containerPort: 8000
         envFrom:
